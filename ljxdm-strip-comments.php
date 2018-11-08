@@ -10,6 +10,9 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 
+if (!defined('ABSPATH')) {
+	exit;
+}
 
 class ljxdmStripComments
 {
@@ -31,7 +34,7 @@ class ljxdmStripComments
 	}
 }
 
-// PHP 5.4 required
+// run it
 new ljxdmStripComments;
 
 ?>
