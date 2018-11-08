@@ -14,8 +14,8 @@
 class ljxdmStripComments
 {
 	public function __construct() {
-		add_action('get_header', array($this, 'start'), 100);
-		add_action('wp_footer', array($this, 'end'), 100);
+		add_action('get_header', array($this, 'start'), 999);
+		add_action('wp_footer', array($this, 'end'), 999);
 	}
 
 	private static function strip($html) {
