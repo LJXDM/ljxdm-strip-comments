@@ -9,5 +9,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Strips all HTML comments from code output by Wordpress
 
+== WARNING ==
+This plugin uses the ob_start() PHP function which could potentially prevent some kinds of caching from working correctly, notably Varnish. 
+
 == Installation ==
 Download, install and activate as normal. There are no options or settings.
